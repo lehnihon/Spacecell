@@ -19,14 +19,13 @@ remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 3
 
 //WRAPPER FOR PRODUCTS
 function woocommerce_start_row_wrapper(){
-	echo '<p>';
+	echo '<article>';
 }
 function woocommerce_end_row_wrapper(){
-	echo '</p>';
+	echo '</article>';
 }
 add_action( 'woocommerce_before_shop_loop_item', 'woocommerce_start_row_wrapper',20 );
-add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_end_row_wrapper',3 );
-add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_start_row_wrapper',7 );
+
 add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_end_row_wrapper',15 );
 
 

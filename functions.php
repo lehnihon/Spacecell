@@ -137,12 +137,33 @@ add_action( 'wp_enqueue_scripts', 'site_scripts' );
 add_filter('loop_shop_columns', 'loop_columns');
 if (!function_exists('loop_columns')) {
 	function loop_columns() {
-		return 4; // 3 products per row
+		return 3; // 3 products per row
 	}
 }
 
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+function woo_related_products_limit() {
+  global $product;
+	
+	$args['posts_per_page'] = 4;
+	return $args;
+}
+add_filter( 'woocommerce_output_related_products_args', 'jk_related_products_args' );
+function jk_related_products_args( $args ) {
+	$args['posts_per_page'] = 4; // 4 related products
+	$args['columns'] = 4; // arranged in 2 columns
+	return $args;
+}
 
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10 );
+remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10 );
+
+add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnailb', 10 );
+function woocommerce_template_loop_product_thumbnailb() {
+    global $post;
+    if ( has_post_thumbnail() )
+          echo get_the_post_thumbnail( $post->ID, '', array('class' => "e-cinza img-responsive") );
+}
 
 /**
  * Implement the Custom Header feature.

@@ -27,12 +27,27 @@ get_header( 'shop' ); ?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-			<h1 class="page-title"><?php woocommerce_page_title(); ?></h1>
+			<h1><?php woocommerce_page_title(); ?></h1>
 
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_archive_description' ); ?>
+		<div class="row">
+			<div class="col-md-3 woo-produtos-menu">
+				<div class="titulo">
+					FILTRAR POR
+				</div>
 
+				<div class="filtro">
+					<div class="titulo-filtro">
+						<span>Marcas</span> <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+					</div>
+					<?php echo do_shortcode('[widget id="prdctfltr-4"]'); ?>
+					
+
+				</div>
+			</div>	
+			<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>
 
 			<?php
@@ -70,7 +85,11 @@ get_header( 'shop' ); ?>
 
 			<?php wc_get_template( 'loop/no-products-found.php' ); ?>
 
-		<?php endif; ?>
+		<?php endif; ?>				
+			</div>		
+		</div>
+
+
 
 	<?php
 		/**
@@ -81,13 +100,5 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_after_main_content' );
 	?>
 
-	<?php
-		/**
-		 * woocommerce_sidebar hook
-		 *
-		 * @hooked woocommerce_get_sidebar - 10
-		 */
-		do_action( 'woocommerce_sidebar' );
-	?>
 
 <?php get_footer( 'shop' ); ?>

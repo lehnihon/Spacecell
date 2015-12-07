@@ -35,7 +35,7 @@ $classes = array();
 if ( 0 == ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 == $woocommerce_loop['columns'] )
 	echo '<div class="row">';
 
-$classes[] = 'col-md-4';
+$classes[] = 'col-md-3';
 ?>
 
 <div <?php post_class( $classes ); ?>>

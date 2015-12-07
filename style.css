@@ -31,7 +31,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   #page h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 24px;
     color: #0082ab; }
   #page h1.small {
     margin-top: 0;
@@ -165,6 +165,45 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       background-color: #005176; }
     #page #content section#newsletter div.right {
       background-color: #d8d8d8; }
+  #page section#produto-woo {
+    margin-bottom: 50px; }
+    #page section#produto-woo div.woo-produtos-menu div.titulo {
+      background-color: #005176;
+      color: white;
+      font-size: 18px;
+      padding: 10px 20px;
+      text-align: left; }
+    #page section#produto-woo nav.woocommerce-breadcrumb {
+      text-align: left; }
+    #page section#produto-woo div.products div.row {
+      margin-bottom: 10px; }
+      #page section#produto-woo div.products div.row article {
+        padding: 25px 15px;
+        border: 1px solid #c0c0c0; }
+        #page section#produto-woo div.products div.row article h4 {
+          min-height: 34px; }
+        #page section#produto-woo div.products div.row article span.price {
+          font-weight: bold;
+          color: #005176;
+          font-size: 15px;
+          padding: 10px 0;
+          display: block; }
+          #page section#produto-woo div.products div.row article span.price del {
+            display: block;
+            font-weight: normal; }
+          #page section#produto-woo div.products div.row article span.price ins {
+            display: block; }
+        #page section#produto-woo div.products div.row article a {
+          display: block; }
+        #page section#produto-woo div.products div.row article a.btn-comprar {
+          background-color: #00a9d6;
+          color: white;
+          font-size: 18px;
+          padding: 5px 0; }
+        #page section#produto-woo div.products div.row article a.btn-comprar:hover {
+          background-color: #60deff; }
+      #page section#produto-woo div.products div.row article:hover {
+        border: 1px solid #005176; }
   #page #footer {
     text-align: left; }
     #page #footer div.footer-content {
