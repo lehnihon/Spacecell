@@ -43,8 +43,6 @@ get_header( 'shop' ); ?>
 						<span>Marcas</span> <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
 					</div>
 					<?php echo do_shortcode('[widget id="prdctfltr-4"]'); ?>
-					
-
 				</div>
 			</div>	
 			<div class="col-md-9">

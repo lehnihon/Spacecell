@@ -70,9 +70,6 @@ $classes[] = 'col-md-3';
 		    <a class="btn-comprar" href="<?php echo get_permalink( $loop->post->ID ) ?>" title="<?php echo esc_attr($loop->post->post_title ? $loop->post->post_title : $loop->post->ID); ?>" class="saiba-mais">
 		    	Comprar
 		    </a>
+
 </div>
 
-<?php
-if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
-	echo '</div>';
-?>

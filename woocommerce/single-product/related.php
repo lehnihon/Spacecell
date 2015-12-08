@@ -38,21 +38,22 @@ $woocommerce_loop['columns'] = $columns;
 if ( $products->have_posts() ) : ?>
 	
 	<div class="related products">
+		<div class="container">
+			<h2 class="underline text-left"><?php _e( 'Related Products', 'woocommerce' ); ?></h2>
 
-		<h2 class="underline text-left"><?php _e( 'Related Products', 'woocommerce' ); ?></h2>
+			<?php woocommerce_product_loop_start(); ?>
 
-		<?php woocommerce_product_loop_start(); ?>
+				<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 
-			<?php while ( $products->have_posts() ) : $products->the_post(); ?>
+					<?php wc_get_template_part( 'content', 'product-related' ); ?>
 
-				<?php wc_get_template_part( 'content', 'product-related' ); ?>
+				<?php endwhile; // end of the loop. ?>
 
-			<?php endwhile; // end of the loop. ?>
-
-		<?php woocommerce_product_loop_end(); ?>
+			<?php woocommerce_product_loop_end(); ?>			
+		</div>
 
 	</div>
-
+</div>
 <?php endif;
 
 wp_reset_postdata();

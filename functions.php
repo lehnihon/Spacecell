@@ -154,7 +154,51 @@ function jk_related_products_args( $args ) {
 	return $args;
 }
 
-remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+
+/**
+ * Remove default product tabs.
+ */
+function cs_woocommerce_remove_default_tags( $tabs ) {
+	// Remove description tab.
+	/*if ( isset( $tabs['description'] ) ) {
+		unset( $tabs['description'] );
+	}
+	*/
+	// Remove additional information tab.
+	if ( isset( $tabs['additional_information'] ) ) {
+		unset( $tabs['additional_information'] );
+	}
+
+	// Remove reviews tab.
+	if ( isset( $tabs['reviews'] ) ) {
+		unset( $tabs['reviews'] );
+	}
+
+	return $tabs;
+}
+
+function annointed_admin_bar_remove() {
+        global $wp_admin_bar;
+
+        /* Remove their stuff */
+        $wp_admin_bar->remove_menu('wp-logo');
+}
+
+add_action('wp_before_admin_bar_render', 'annointed_admin_bar_remove', 0);
+
+add_filter( 'woocommerce_product_tabs', 'cs_woocommerce_remove_default_tags' );
+
+function woocommerce_template_single_codigo() {
+	wc_get_template( 'single-product/codigo.php' );
+}
+
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_codigo', 7 );
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
+add_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 9 );
+remove_action( 'woocommerce_single_product_summary', array( 'WC_Correios_Product_Shipping_Simulator', 'simulator' ), 45 );
+
 remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10 );
 remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10 );
 
@@ -164,6 +208,15 @@ function woocommerce_template_loop_product_thumbnailb() {
     if ( has_post_thumbnail() )
           echo get_the_post_thumbnail( $post->ID, '', array('class' => "e-cinza img-responsive") );
 }
+
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10 );
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
+
+
+add_action( 'woocommerce_after_main_content', 'woocommerce_output_product_data_tabs',30);
+add_action( 'woocommerce_after_main_content', 'woocommerce_output_related_products', 40);
+
+
 
 /**
  * Implement the Custom Header feature.
