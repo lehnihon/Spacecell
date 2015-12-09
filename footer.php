@@ -28,7 +28,7 @@
 					<div class="col-md-3">
 						<strong>Sobre a Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">O Restaurante</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."institucional" ); ?>">O Restaurante</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."localizacao" ); ?>">Localização</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."blog" ); ?>">Blog</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Contato</a></li>
