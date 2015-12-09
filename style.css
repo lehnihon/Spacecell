@@ -269,6 +269,22 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-color: #60deff; }
     #page div.related article:hover {
       border: 1px solid #005176; }
+  #page div#outros {
+    margin-bottom: 50px; }
+    #page div#outros a.checkout-button {
+      background-color: #00a9d6;
+      color: white;
+      font-size: 18px;
+      padding: 5px 0; }
+    #page div#outros a.checkout-button:hover {
+      background-color: #60deff; }
+    #page div#outros a.wc-backward {
+      background-color: #00a9d6;
+      color: white;
+      font-size: 18px;
+      padding: 5px 25px; }
+    #page div#outros a.wc-backward:hover {
+      background-color: #60deff; }
   #page #footer {
     text-align: left; }
     #page #footer div.footer-content {

@@ -255,6 +255,31 @@ div.related{
 	}	
 }
 
+div#outros{
+	margin-bottom:50px;
+
+	a.checkout-button{
+		background-color:#00a9d6;
+		color:white;
+		font-size: 18px;
+		padding:5px 0;		
+	}
+	a.checkout-button:hover{
+		background-color:#60deff;
+	}
+
+	a.wc-backward{
+		background-color:#00a9d6;
+		color:white;
+		font-size: 18px;
+		padding:5px 25px;			
+	}
+	a.wc-backward:hover{
+		background-color:#60deff;		
+	}
+
+}
+
 @media (max-width: 991px) {  
 
 }
