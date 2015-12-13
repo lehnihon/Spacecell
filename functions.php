@@ -155,6 +155,7 @@ function jk_related_products_args( $args ) {
 }
 
 
+
 /**
  * Remove default product tabs.
  */

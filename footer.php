@@ -5,33 +5,33 @@
 					<div class="col-md-6 produtos clearfix">
 						<strong>Produtos Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Eletrônicos</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."localizacao" ); ?>">Celulares</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."blog" ); ?>">Celulares baratos</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Lenox</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Mallory</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/eletronicos" ); ?>">Eletrônicos</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/celulares" ); ?>">Celulares</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/celulares-baratos" ); ?>">Celulares baratos</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/lenox" ); ?>">Lenox</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/mallory" ); ?>">Mallory</a></li>
 						</ul>									
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Black Berry</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."localizacao" ); ?>">Sony</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."blog" ); ?>">LG</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Motorola</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/black-berry" ); ?>">Black Berry</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/sony" ); ?>">Sony</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/lg" ); ?>">LG</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/motorola" ); ?>">Motorola</a></li>
 						</ul>									
 					
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nokia</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."localizacao" ); ?>">Samsung</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."blog" ); ?>">ZTE</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Apple</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/nokia" ); ?>">Nokia</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/samsung" ); ?>">Samsung</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/zte" ); ?>">ZTE</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/apple" ); ?>">Apple</a></li>
 						</ul>															
 					</div>
 					<div class="col-md-3">
 						<strong>Sobre a Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."institucional" ); ?>">O Restaurante</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."localizacao" ); ?>">Localização</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."blog" ); ?>">Blog</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."institucional" ); ?>">Institucional</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."politica-de-privacidade" ); ?>">Política de Privacidade</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."troca-e-devolucao" ); ?>">Troca e Devolução</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Fale Conosco</a></li>
 						</ul>	
 					</div>
 					<div class="col-md-3">

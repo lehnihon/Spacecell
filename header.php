@@ -27,8 +27,7 @@
 				<div class="col-md-offset-7 col-md-5">
 					<ul class="menu-top">
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Space Cell</a></li>
-						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta</a></li>
-						<li><a href="<?php echo home_url( '/' ).'cadastrase'; ?>">Cadastra-se</a></li>
+						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta / Cadastra-se</a></li>
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'contato'; ?>">Contato</a></li>
 					</ul>
 				</div>
@@ -65,33 +64,33 @@
 						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' ); ?>">Eletrônicos</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Celulares</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Lenoxx</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Mallory</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Black Berry</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Sony</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">LG</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Motorola</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Nokia</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Samsung</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">ZTE</a></li>
-						<li><a href="<?php echo home_url( '/' ); ?>">Apple</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/eletronicos"; ?>">Eletrônicos</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/lenoxx"; ?>">Lenoxx</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/black-berry"; ?>">Black Berry</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/sony"; ?>">Sony</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/lg"; ?>">LG</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/motorola"; ?>">Motorola</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/nokia"; ?>">Nokia</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/samsung"; ?>">Samsung</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/zte"; ?>">ZTE</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/apple"; ?>">Apple</a></li>
 					</ul>								
 				</div>
 				<ul class="main-navigation clearfix">
-					<li><a href="<?php echo home_url( '/' ); ?>">Eletrônicos</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Celulares</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Lenoxx</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Mallory</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Black Berry</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Sony</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">LG</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Motorola</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Nokia</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Samsung</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">ZTE</a></li>
-					<li><a href="<?php echo home_url( '/' ); ?>">Apple</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/eletronicos"; ?>">Eletrônicos</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/lenoxx"; ?>">Lenoxx</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/black-berry"; ?>">Black Berry</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/sony"; ?>">Sony</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/lg"; ?>">LG</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/motorola"; ?>">Motorola</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/nokia"; ?>">Nokia</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/samsung"; ?>">Samsung</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/zte"; ?>">ZTE</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/apple"; ?>">Apple</a></li>
 				</ul>				
 			</div>
 		</nav><!-- #site-navigation -->
