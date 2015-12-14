@@ -40,17 +40,11 @@ get_header( 'shop' ); ?>
 
 				<div class="filtro">
 					<div class="titulo-filtro">
-						<span>Modelos</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
 					</div>
 					<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
 				</div>
 
-				<div class="filtro">
-					<div class="titulo-filtro">
-						<span>Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
-					</div>
-					<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-3"]'); ?>
-				</div>
 
 			</div>	
 			<div class="col-md-9">
