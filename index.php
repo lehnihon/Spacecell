@@ -23,13 +23,13 @@ get_header(); ?>
 			</div>
 			<div class="row category">
 				<div class="col-md-4">
-					categoria 1
+					<?php putRevSlider( "categoria1" ) ?>	
 				</div>
 				<div class="col-md-4">
-					categoria 2
+					<?php putRevSlider( "categoria2" ) ?>	
 				</div>
 				<div class="col-md-4">
-					categoria 3
+					<?php putRevSlider( "categoria3" ) ?>	
 				</div>
 			</div>
 		</div>
@@ -45,7 +45,7 @@ get_header(); ?>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-smartphones', 'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-e-smartphones', 'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -59,7 +59,7 @@ get_header(); ?>
 			</div>	
 			<div class="row category">
 				<div class="col-md-12">
-					categoria 4
+					<?php putRevSlider( "categoria4" ) ?>
 				</div>
 			</div>
 
@@ -70,7 +70,7 @@ get_header(); ?>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-smartphones', 'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-e-smartphones', 'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -84,13 +84,13 @@ get_header(); ?>
 			</div>	
 			<div class="row category">
 				<div class="col-md-4">
-					categoria 5
+					<?php putRevSlider( "categoria5" ) ?>
 				</div>
 				<div class="col-md-4">
-					categoria 6
+					<?php putRevSlider( "categoria6" ) ?>
 				</div>
 				<div class="col-md-4">
-					categoria 7
+					<?php putRevSlider( "categoria7" ) ?>
 				</div>
 			</div>
 
@@ -101,7 +101,7 @@ get_header(); ?>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-smartphones', 'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-e-smartphones', 'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -115,10 +115,10 @@ get_header(); ?>
 			</div>	
 			<div class="row category">
 				<div class="col-md-6">
-					categoria 8
+					<?php putRevSlider( "categoria8" ) ?>
 				</div>
 				<div class="col-md-6">
-					categoria 9
+					<?php putRevSlider( "categoria9" ) ?>
 				</div>
 			</div>
 
@@ -129,7 +129,7 @@ get_header(); ?>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-smartphones', 'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4, 'product_cat' => 'celulares-e-smartphones', 'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  

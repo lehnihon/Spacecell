@@ -78,12 +78,39 @@ section#produto-woo{
 	margin-bottom:50px;
 
 	div.woo-produtos-menu{
+		
 		div.titulo{
 			background-color:#005176;
 			color: white;
 			font-size: 18px;
 			padding:10px 20px;
 			text-align: left;
+
+		}
+
+		div.filtro{
+			text-align: left;
+			margin-top: 10px;
+			
+			div.titulo-filtro{
+				background-color:#e0e0e0;
+				padding-top:10px;
+				padding-bottom:10px;
+				padding-left:25px;
+				padding-right:10px;
+
+				img.img-plus{
+					float: right;
+				}
+				img.img-plus{
+					cursor:pointer;
+				}	
+			}
+
+			div.yith-woo-ajax-navigation{
+				padding:10px 25px;
+				background-color:#f0f0f0;
+			}
 		}
 	}
 
@@ -257,6 +284,46 @@ div.related{
 
 div#outros{
 	margin-bottom:50px;
+
+	form.woocommerce-checkout{
+		text-align: left;
+
+		div.woocommerce-shipping-fields{
+			h3{
+				input#ship-to-different-address-checkbox{
+					float: left;
+					margin-right: 10px;
+				}
+			}
+		}
+		div.woocommerce-billing-fields{
+			input{
+				padding:5px;
+			}
+		}
+	}
+
+	div.entry-content{
+		text-align: left;
+	}
+
+	div.woocommerce{
+		input{
+			padding:5px;
+		}
+
+		input.button{
+			background-color:#00a9d6;
+			color:white;
+			font-size: 18px;
+			padding:10px 25px;		
+		}
+
+		input.button:hover{
+			background-color:#60deff;
+		}
+
+	}
 
 	a.checkout-button{
 		background-color:#00a9d6;

@@ -40,10 +40,12 @@ get_header( 'shop' ); ?>
 
 				<div class="filtro">
 					<div class="titulo-filtro">
-						<span>Marcas</span> <img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
 					</div>
-					<?php echo do_shortcode('[widget id="prdctfltr-4"]'); ?>
+					<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
 				</div>
+
+
 			</div>	
 			<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>

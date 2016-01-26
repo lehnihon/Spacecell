@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 global $product, $woocommerce_loop;
 
-if ( empty( $product ) || ! $product->exists() ) {
+if ( empty( $product ) || ! $product->exists() ||  !is_product()  ) {
 	return;
 }
 
