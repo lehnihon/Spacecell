@@ -13,6 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 wc_print_notices(); ?>
 
+<h1><strong>Minha Conta</strong></h1>
+
 <p class="myaccount_user">
 	<?php
 	printf(

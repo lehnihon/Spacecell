@@ -293,7 +293,32 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div.related article:hover {
       border: 1px solid #005176; }
   #page div#outros {
-    margin-bottom: 50px; }
+    margin-bottom: 25px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 25px; }
+    #page div#outros .woocommerce .cart-collaterals .cart_totals, #page div#outros .woocommerce-page .cart-collaterals .cart_totals {
+      float: left; }
+      #page div#outros .woocommerce .cart-collaterals .cart_totals h2, #page div#outros .woocommerce-page .cart-collaterals .cart_totals h2 {
+        font-size: 20px;
+        font-weight: normal; }
+      #page div#outros .woocommerce .cart-collaterals .cart_totals .button, #page div#outros .woocommerce-page .cart-collaterals .cart_totals .button {
+        width: 30%;
+        padding: 10px; }
+    #page div#outros h2.conta-title {
+      margin-top: 25px;
+      font-size: 20px;
+      font-weight: normal; }
+    #page div#outros header.title {
+      margin-top: 25px; }
+      #page div#outros header.title h3.conta-title {
+        margin-top: 0px;
+        font-size: 20px;
+        font-weight: normal;
+        float: left;
+        margin-right: 5px; }
+    #page div#outros form.login, #page div#outros form.register {
+      border: 0; }
     #page div#outros form.woocommerce-checkout {
       text-align: left; }
       #page div#outros form.woocommerce-checkout div.woocommerce-shipping-fields h3 input#ship-to-different-address-checkbox {

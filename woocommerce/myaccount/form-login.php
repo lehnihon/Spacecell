@@ -25,7 +25,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <?php endif; ?>
 
-		<h2><?php _e( 'Login', 'woocommerce' ); ?></h2>
+		<h2>Minha Conta</h2>
+		<h5><strong>Faça o login com sua conta</strong></h5>
 
 		<form method="post" class="login">
 
@@ -63,7 +64,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<div class="col-2">
 
-		<h2><?php _e( 'Register', 'woocommerce' ); ?></h2>
+		<h2>Cadastre-se</h2>
+		<h5><strong>Faça seu cadastro na Space Cell</strong></h5>
 
 		<form method="post" class="register">
 
