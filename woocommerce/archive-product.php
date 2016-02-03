@@ -44,7 +44,12 @@ get_header( 'shop' ); ?>
 					</div>
 					<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
 				</div>
-
+				<div class="filtro">
+					<div class="titulo-filtro">
+						<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+					</div>
+					<?php echo do_shortcode('[widget id="woocommerce_price_filter-2"]'); ?>
+				</div>
 
 			</div>	
 			<div class="col-md-9">
