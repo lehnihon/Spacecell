@@ -318,7 +318,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         float: left;
         margin-right: 5px; }
     #page div#outros form.login, #page div#outros form.register {
-      border: 0; }
+      border: 0;
+      margin-bottom: 0; }
     #page div#outros form.woocommerce-checkout {
       text-align: left; }
       #page div#outros form.woocommerce-checkout div.woocommerce-shipping-fields h3 input#ship-to-different-address-checkbox {
