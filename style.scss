@@ -88,7 +88,23 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	@import 'content';
 	@import 'footer';
 
+	.input-contato{
+		border:0;
+		padding:5px;
+		background-color: #f4f4f4;
+	}
 
+	.btn-contato{
+		background-color:#005176;
+		padding:5px 25px;
+		color:white;
+		border:0;
+	}
+
+	.btn-contato:hover{
+		background-color:#8394dd;
+	}
+	
 }
 .e-cinza:hover{
 	-webkit-filter: grayscale(100%); 

@@ -5,7 +5,9 @@
 				<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/newsletter-carta.png"; ?>"/>
 			</div>		
 			<div class="col-md-8 right">
-				form	
+				<?php
+				if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 9 ); }
+				?>	
 			</div>
 		</div>			
 	</div>

@@ -177,7 +177,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       padding: 25px;
       background-color: #005176; }
     #page #content section#newsletter div.right {
-      background-color: #d8d8d8; }
+      background-color: #f5f5f5; }
+      #page #content section#newsletter div.right .input-newstext {
+        padding: 8px 5px; }
+      #page #content section#newsletter div.right .btn-news {
+        background-color: #005176;
+        padding: 10px 25px;
+        color: white;
+        border: 0; }
+      #page #content section#newsletter div.right .btn-news:hover {
+        background-color: #8394dd; }
+      #page #content section#newsletter div.right .newspad {
+        padding: 23px; }
+  #page #content section#contato-pag {
+    margin-bottom: 50px; }
+    #page #content section#contato-pag .info-right {
+      background-color: #005176;
+      color: white;
+      padding: 20px 50px; }
   #page section#produto-woo {
     margin-bottom: 50px; }
     #page section#produto-woo div.woo-produtos-menu div.titulo {
@@ -297,6 +314,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     background-color: #f5f5f5;
     border-radius: 10px;
     padding: 25px; }
+    #page div#outros #coupon_code {
+      padding-top: 9px;
+      padding-bottom: 9px;
+      width: 182px; }
     #page div#outros .woocommerce .cart-collaterals .cart_totals, #page div#outros .woocommerce-page .cart-collaterals .cart_totals {
       float: left; }
       #page div#outros .woocommerce .cart-collaterals .cart_totals h2, #page div#outros .woocommerce-page .cart-collaterals .cart_totals h2 {
@@ -423,6 +444,17 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           color: white; }
         #page #footer div.copyrino .col-md-10 a:hover {
           color: #bfbfbf; }
+  #page .input-contato {
+    border: 0;
+    padding: 5px;
+    background-color: #f4f4f4; }
+  #page .btn-contato {
+    background-color: #005176;
+    padding: 5px 25px;
+    color: white;
+    border: 0; }
+  #page .btn-contato:hover {
+    background-color: #8394dd; }
 
 .e-cinza:hover {
   -webkit-filter: grayscale(100%);
