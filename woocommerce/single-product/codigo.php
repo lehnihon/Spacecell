@@ -19,6 +19,6 @@ global $product;
 	<?php 
 	echo $product->get_categories( ', ', ' ' . _n( ' ', '  ', $cat_count, 'woocommerce' ) . ' ', ' ' );
 	?>
-	</span><br/>
-	<!--<span class="sku_wrapper"><?php _e( 'Código:', 'woocommerce' ); ?> <span class="sku" itemprop="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></span>.</span>-->
+	</span>
+	<span class="sku_wrapper"><?php _e( 'Código:', 'woocommerce' ); ?> <span class="sku" itemprop="sku"><?php echo ( $sku = $product->get_sku() ) ? $sku : __( 'N/A', 'woocommerce' ); ?></span>.</span>
 </p><br/>

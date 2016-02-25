@@ -42,23 +42,33 @@ if ( ! defined( 'ABSPATH' ) ) {
 	?>
 
 	<div class="summary entry-summary">
-
-		<?php
-			/**
-			 * woocommerce_single_product_summary hook
-			 *
-			 * @hooked woocommerce_template_single_title - 5
-			 * @hooked woocommerce_template_single_codigo - 7
-			 * @hooked woocommerce_template_single_excerpt - 9
-			 * @hooked woocommerce_template_single_rating - 10
-			 * @hooked woocommerce_template_single_price - 10
-			 * @hooked woocommerce_template_single_add_to_cart - 30
-			 * @hooked woocommerce_template_single_meta - 40
-			 * @hooked woocommerce_template_single_sharing - 50
-			 */
-			do_action( 'woocommerce_single_product_summary' );
-		?>
-
+		<div class="produto_conteudo">
+			<?php
+				/**
+				 * woocommerce_single_product_summary hook
+				 *
+				 * @hooked woocommerce_template_single_title - 5
+				 * @hooked woocommerce_template_single_codigo - 7
+				 * @hooked woocommerce_template_single_excerpt - 9
+				 * @hooked woocommerce_template_single_rating - 10
+				 * @hooked woocommerce_template_single_price - 10
+				 * @hooked woocommerce_template_single_add_to_cart - 30
+				 * @hooked woocommerce_template_single_meta - 40
+				 * @hooked woocommerce_template_single_sharing - 50
+				 */
+				do_action( 'woocommerce_single_product_summary' );
+			?>
+		</div>
+		<div class="produto_correios">
+			<?php
+				/**
+				 * woocommerce_single_product_summary hook
+				 *
+				 * @hooked woocommerce_template_correios - 5
+				 */
+				do_action( 'woocommerce_single_product_correios' );
+			?>		
+		</div>
 	</div><!-- .summary -->
 
 	<?php
