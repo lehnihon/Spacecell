@@ -28,7 +28,7 @@
 					<div class="col-md-3">
 						<strong>Sobre a Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."institucional" ); ?>">Institucional</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Institucional</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."politica-de-privacidade" ); ?>">Política de Privacidade</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."troca-e-devolucao" ); ?>">Troca e Devolução</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."contato" ); ?>">Fale Conosco</a></li>

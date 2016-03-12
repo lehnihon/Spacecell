@@ -22,7 +22,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  
 #page{
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	color:#606060;
+	color:#005274;
 	text-align:center;
 
 	a{
@@ -116,4 +116,35 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
+section#newsletter{
+	margin-bottom: 50px;
+
+	div.left{
+		padding: 25px;
+		background-color: #005176;
+	}
+
+	div.right{
+		background-color:#f5f5f5;
+
+		.input-newstext{
+			padding: 8px 5px;				
+		}
+		.btn-news{
+			background-color:#005176;
+			padding:10px 25px;
+			color:white;
+			border:0;
+		}
+
+		.btn-news:hover{
+			background-color:#8394dd;
+		}
+
+		.newspad{
+			padding:23px;
+		}
+
+	}
+}
 

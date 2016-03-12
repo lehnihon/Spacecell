@@ -21,7 +21,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 #page {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #606060;
+  color: #005274;
   text-align: center; }
   #page a {
     color: #606060; }
@@ -171,30 +171,18 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-color: #60deff; }
     #page #content section#produtos article:hover {
       border: 1px solid #005176; }
-  #page #content section#newsletter {
-    margin-bottom: 50px; }
-    #page #content section#newsletter div.left {
-      padding: 25px;
-      background-color: #005176; }
-    #page #content section#newsletter div.right {
-      background-color: #f5f5f5; }
-      #page #content section#newsletter div.right .input-newstext {
-        padding: 8px 5px; }
-      #page #content section#newsletter div.right .btn-news {
-        background-color: #005176;
-        padding: 10px 25px;
-        color: white;
-        border: 0; }
-      #page #content section#newsletter div.right .btn-news:hover {
-        background-color: #8394dd; }
-      #page #content section#newsletter div.right .newspad {
-        padding: 23px; }
   #page #content section#contato-pag {
     margin-bottom: 50px; }
     #page #content section#contato-pag .info-right {
       background-color: #005176;
       color: white;
       padding: 20px 50px; }
+  #page section#sobre {
+    margin-bottom: 25px; }
+  #page section#politica-privacidade {
+    margin-bottom: 25px; }
+  #page section#troca-e-devolucao {
+    margin-bottom: 25px; }
   #page section#produto-woo {
     margin-bottom: 50px; }
     #page section#produto-woo div.woo-produtos-menu div.titulo {
@@ -360,6 +348,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         padding: 5px; }
     #page div#outros div.entry-content {
       text-align: left; }
+    #page div#outros div.woocommerce .addresses .title .edit {
+      float: none !important; }
     #page div#outros div.woocommerce input {
       padding: 5px; }
     #page div#outros div.woocommerce input.button {
@@ -474,5 +464,24 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
   opacity: 0.6;
   filter: alpha(opacity=60);
   /* For IE8 and earlier */ }
+
+section#newsletter {
+  margin-bottom: 50px; }
+  section#newsletter div.left {
+    padding: 25px;
+    background-color: #005176; }
+  section#newsletter div.right {
+    background-color: #f5f5f5; }
+    section#newsletter div.right .input-newstext {
+      padding: 8px 5px; }
+    section#newsletter div.right .btn-news {
+      background-color: #005176;
+      padding: 10px 25px;
+      color: white;
+      border: 0; }
+    section#newsletter div.right .btn-news:hover {
+      background-color: #8394dd; }
+    section#newsletter div.right .newspad {
+      padding: 23px; }
 
 /*# sourceMappingURL=style.css.map */
