@@ -5,7 +5,7 @@
     <a href="<?php echo the_permalink(); ?>" title="<?php echo the_title( ); ?>">
         <?php 
         if (has_post_thumbnail()): 
-        	echo the_post_thumbnail('home-thumb', array('class' => "e-cinza img-responsive"));
+        	echo the_post_thumbnail('', array('class' => "e-cinza img-responsive"));
         else: 
         	echo '<img class="img-responsive" src="'.woocommerce_placeholder_img_src().'" />';
         endif; 
