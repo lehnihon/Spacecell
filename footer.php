@@ -39,7 +39,8 @@
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 XXXX-XXXX	
+							11 2307-3079 <br>
+							11 2307-3026
 						</p>
 					</div>
 				</div>

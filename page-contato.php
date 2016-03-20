@@ -17,7 +17,8 @@ get_header(); ?>
 				<div class="col-md-6 col-md-offset-1 info-right text-left">
 					<p>
 						<strong>Telefone</strong>
-						<br>11 XXXX-XXXX
+						<br>11 2307-3079 <br>	
+							11 2307-3026
 						<br><br><strong>Email</strong>
 						<br>contato@spacecell.com.br
 					</p>
