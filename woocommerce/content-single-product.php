@@ -59,7 +59,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				do_action( 'woocommerce_single_product_summary' );
 			?>
 		</div>
-		<!--<div class="produto_correios">
+		<div class="produto_correios">
 			<?php
 				/**
 				 * woocommerce_single_product_summary hook
@@ -68,7 +68,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				 */
 				do_action( 'woocommerce_single_product_correios' );
 			?>		
-		</div>-->
+		</div>
 	</div><!-- .summary -->
 
 	<?php
