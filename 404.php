@@ -6,6 +6,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
+				<br><br>
 					<h1 class="small">Página não Encontrada</h1>
 				</div>
 			</div>
