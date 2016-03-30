@@ -157,7 +157,12 @@ function jk_related_products_args( $args ) {
 	return $args;
 }
 
-
+function custom_login_logo() {
+	echo '<style type="text/css">
+	h1 a { background-image: url(images/header-logo.png) !important; }
+	</style>';
+}
+add_action('login_head', 'custom_login_logo');
 
 /**
  * Remove default product tabs.
