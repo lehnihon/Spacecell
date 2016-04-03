@@ -66,12 +66,13 @@
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
 						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
-						
+						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
 					</ul>								
 				</div>
 				<ul class="main-navigation clearfix">
 					<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
 						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
 					
 				</ul>				
 			</div>

@@ -125,6 +125,22 @@ section#produto-woo{
 		}
 	}
 
+	div#wc-correios-simulator{
+		.button{
+		    background-color: #00a9d6;
+		    color: white;
+		    font-size: 18px;
+		    padding: 10px 25px;	
+		    border-radius:0px;	
+		}
+
+		.input-text{
+			margin-right: 0;
+			border:1px solid #bebebe;
+			padding: 18px;
+		}
+	}
+
 	nav.woocommerce-breadcrumb{
 		text-align: left;
 	}
