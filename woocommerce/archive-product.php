@@ -53,6 +53,18 @@ get_header( 'shop' ); ?>
 					</div>
 
 				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'mallory'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Tipo</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-3]'); ?>
+					</div>
+
+				<?php endif; ?>
+
 			</div>	
 			<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>
