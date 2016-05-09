@@ -207,6 +207,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
       #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation {
         padding: 10px 25px;
         background-color: #f0f0f0; }
+        #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation .count::before {
+          content: "("; }
+        #page section#produto-woo div.woo-produtos-menu div.filtro div.yith-woo-ajax-navigation .count::after {
+          content: ")"; }
     #page section#produto-woo div#wc-correios-simulator .button {
       background-color: #00a9d6;
       color: white;
