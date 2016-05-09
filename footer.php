@@ -7,7 +7,7 @@
 						<ul>
 							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/meu" ); ?>">Meu</a></li>
 							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/celulares" ); ?>">Celulares</a></li>
-
+							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/mallory" ); ?>">Mallory</a></li>
 						</ul>									
 																
 					</div>
