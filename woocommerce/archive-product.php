@@ -32,19 +32,39 @@ get_header( 'shop' ); ?>
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_archive_description' ); ?>
+
+		<?php 
+		global $wp_query;
+		$cat_obj = $wp_query->get_queried_object();
+		?>
+
 		<div class="row">
 			<div class="col-md-3 woo-produtos-menu">
 				<div class="titulo">
 					FILTRAR POR
 				</div>
+				<?php if($cat_obj->slug == 'meu' or $cat_obj->slug == 'celulares'):?>
 
-				<div class="filtro">
-					<div class="titulo-filtro">
-						<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Quantidade de Chips</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
 					</div>
-					<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
-				</div>
-			
+
+				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'mallory'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Tipo</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-3]'); ?>
+					</div>
+
+				<?php endif; ?>
+
 			</div>	
 			<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>

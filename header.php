@@ -27,7 +27,7 @@
 				<div class="col-md-offset-7 col-md-5">
 					<ul class="menu-top">
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'sobre'; ?>">Sobre a Space Cell</a></li>
-						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta / Cadastra-se</a></li>
+						<li><a href="<?php echo home_url( '/' ).'minha-conta'; ?>">Minha Conta / Cadastre-se</a></li>
 						<li class="hide-op"><a href="<?php echo home_url( '/' ).'contato'; ?>">Contato</a></li>
 					</ul>
 				</div>
@@ -66,12 +66,13 @@
 					<ul class="dropdown-menu">
 						<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
 						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
-						
+						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
 					</ul>								
 				</div>
 				<ul class="main-navigation clearfix">
 					<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
 						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
 					
 				</ul>				
 			</div>
