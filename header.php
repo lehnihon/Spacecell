@@ -64,16 +64,17 @@
 						<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
 						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
+						<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>					
 					</ul>								
 				</div>
 				<ul class="main-navigation clearfix">
-					<li><a href="<?php echo home_url( '/' )."categoria/meu"; ?>">MEU</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
-						<li><a href="<?php echo home_url( '/' )."categoria/mallory"; ?>">Mallory</a></li>
-					
+					<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
+					<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>		
 				</ul>				
 			</div>
 		</nav><!-- #site-navigation -->
