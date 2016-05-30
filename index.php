@@ -40,12 +40,12 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">MEU</h1>
+					<h1 class="small underline text-left">Eletroportáteis</h1>
 				</div>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'meu',  'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'eletroportateis',  'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  

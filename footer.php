@@ -5,9 +5,10 @@
 					<div class="col-md-6 produtos clearfix">
 						<strong>Produtos Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/meu" ); ?>">Meu</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/celulares" ); ?>">Celulares</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/mallory" ); ?>">Mallory</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>					
 						</ul>									
 																
 					</div>
@@ -33,14 +34,13 @@
 				<div class="row outros">
 					<div class="col-md-6">
 						<strong>Formas de Pagamento</strong><br><br>
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto1.png"?>" />
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto2.png"?>" />
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto.jpg"?>" />
 					</div>
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 2307-3079 <br>
-							11 2307-3026
+							11 97670-2332 <br>
+							contato@spacecell.com.br
 						</p>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						&copy; Copyright <?php echo date('Y') ?> - SpaceCell | <a target="_blank" href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
+						&copy; Copyright <?php echo date('Y') ?> - CNPJ 17.384.419/0001-97 - Tatuapé - São Paulo 
 					</div>
 					<div class="col-md-2">
 						<a target="_blank" href="http://agenciarino.com.br/"><img class="anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-rino.png"?>" /></a>	
