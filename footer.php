@@ -5,9 +5,11 @@
 					<div class="col-md-6 produtos clearfix">
 						<strong>Produtos Space Cell</strong><br><br>
 						<ul>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/meu" ); ?>">Meu</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/celulares" ); ?>">Celulares</a></li>
-							<li><a href="<?php echo esc_url( home_url( '/' )."categoria/mallory" ); ?>">Mallory</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>	
+							<li><a href="<?php echo home_url( '/' )."categoria/destaques"; ?>">Destaques</a></li>	
 						</ul>									
 																
 					</div>
@@ -39,8 +41,8 @@
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 2307-3079 <br>
-							11 2307-3026
+							11 4113-7611 <br/> 
+							11 4113-7283
 						</p>
 					</div>
 				</div>
