@@ -8,7 +8,8 @@
 							<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
-							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>					
+							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>	
+							<li><a href="<?php echo home_url( '/' )."categoria/destaques"; ?>">Destaques</a></li>	
 						</ul>									
 																
 					</div>
@@ -39,7 +40,8 @@
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 97670-2332 <br>
+							11 4113-7611 <br/> 
+							11 4113-7283 <br/> 
 							contato@spacecell.com.br
 						</p>
 					</div>
