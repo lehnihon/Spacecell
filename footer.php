@@ -35,14 +35,14 @@
 				<div class="row outros">
 					<div class="col-md-6">
 						<strong>Formas de Pagamento</strong><br><br>
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto1.png"?>" />
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto2.png"?>" />
+						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto.jpg"?>" />
 					</div>
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-							11 4113-7611 <br/> 
-							11 4113-7283
+						    11 4113-7611 <br/> 
+							11 4113-7283<br/>
+							contato@spacecell.com.br
 						</p>
 					</div>
 				</div>
@@ -52,7 +52,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						&copy; Copyright <?php echo date('Y') ?> - SpaceCell | <a target="_blank" href="http://agenciarino.com.br/">Site desenvolvido pela Agência Rino.</a>
+						&copy; Copyright <?php echo date('Y') ?> - SpaceCell - CNPJ 17.384.419/0001-97 - Tatuapé - São Paulo
 					</div>
 					<div class="col-md-2">
 						<a target="_blank" href="http://agenciarino.com.br/"><img class="anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-rino.png"?>" /></a>	
