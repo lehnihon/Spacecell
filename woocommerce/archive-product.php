@@ -26,9 +26,11 @@ get_header( 'shop' ); ?>
 	?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-
-			<h1><?php woocommerce_page_title(); ?></h1>
-
+		<div class="row">
+			<div class="col-md-offset-3">		
+				<h1><?php woocommerce_page_title(); ?></h1>
+			</div>
+		</div>
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_archive_description' ); ?>
