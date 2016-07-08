@@ -43,7 +43,7 @@ get_header( 'shop' ); ?>
 				<div class="titulo">
 					FILTRAR POR
 				</div>
-				<?php if($cat_obj->slug == 'meu' or $cat_obj->slug == 'celulares'):?>
+				<?php if($cat_obj->slug == 'celulares'):?>
 
 					<div class="filtro">
 						<div class="titulo-filtro">
@@ -52,15 +52,72 @@ get_header( 'shop' ); ?>
 						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-2"]'); ?>
 					</div>
 
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Sistema Operacional</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-4"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Marcas</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-5"]'); ?>
+					</div>
+
 				<?php endif; ?>
 
-				<?php if( $cat_obj->slug == 'mallory'):?>
+				<?php if( $cat_obj->slug == 'ar-e-ventilacao'):?>
 
 					<div class="filtro">
 						<div class="titulo-filtro">
 							<span>Tipo</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
 						</div>
-						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-3]'); ?>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-7"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Marcas</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-6"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'eletroportateis'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Tipo</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-8"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Marcas</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-6"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'beleza'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Tipo</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-9"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Marcas</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-6"]'); ?>
 					</div>
 
 				<?php endif; ?>

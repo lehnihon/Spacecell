@@ -5,11 +5,14 @@
 					<div class="col-md-6 produtos clearfix">
 						<strong>Produtos Space Cell</strong><br><br>
 						<ul>
+							<li><a href="<?php echo home_url( '/' )."categoria/destaques"; ?>">Destaques</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/eletroportateis"; ?>">Eletroportáteis</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/celulares"; ?>">Celulares</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/ar-e-ventilacao"; ?>">Ar e Ventilação</a></li>
 							<li><a href="<?php echo home_url( '/' )."categoria/beleza"; ?>">Beleza</a></li>	
-							<li><a href="<?php echo home_url( '/' )."categoria/destaques"; ?>">Destaques</a></li>	
+							<li><a href="<?php echo home_url( '/' )."categoria/acessorios"; ?>">Acessórios</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/produtos-refurbished"; ?>">Refurbished</a></li>
+							<li><a href="<?php echo home_url( '/' )."categoria/produtos-vitrine"; ?>">Vitrine</a></li>
 						</ul>									
 																
 					</div>
@@ -40,8 +43,8 @@
 					<div class="col-md-3">
 						<strong>Televendas</strong><br><br>
 						<p>
-						    11 4113-7611 <br/> 
-							11 4113-7283<br/>
+							11 4113-7611 <br/> 
+							11 4113-7283 <br/> 
 							contato@spacecell.com.br
 						</p>
 					</div>
@@ -52,7 +55,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-10">
-						&copy; Copyright <?php echo date('Y') ?> - SpaceCell - CNPJ 17.384.419/0001-97 - Tatuapé - São Paulo
+						&copy; Copyright <?php echo date('Y') ?> - CNPJ 17.384.419/0001-97 - Tatuapé - São Paulo 
 					</div>
 					<div class="col-md-2">
 						<a target="_blank" href="http://agenciarino.com.br/"><img class="anima-rino" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-rino.png"?>" /></a>	

@@ -40,12 +40,12 @@ get_header(); ?>
 
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small underline text-left">MEU</h1>
+					<h1 class="small underline text-left">Destaques</h1>
 				</div>
 			</div>	
 			<div class="row">
 			    <?php
-		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'meu',  'orderby' => 'rand' );
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'destaques',  'orderby' => 'rand' );
 		        $loop = new WP_Query( $args );
 
 		        while ( $loop->have_posts() ) : $loop->the_post();  
@@ -88,6 +88,32 @@ get_header(); ?>
 	</section>
 
 	<?php get_template_part( 'template-parts/newsletter' ); ?>
+
+	<section id="produtosb">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="small underline text-left">Eletroportáteis</h1>
+				</div>
+			</div>	
+			<div class="row">
+			    <?php
+		        $args = array( 'post_type' => 'product', 'posts_per_page' => 4,'product_cat' => 'eletroportateis',  'orderby' => 'rand' );
+		        $loop = new WP_Query( $args );
+
+		        while ( $loop->have_posts() ) : $loop->the_post();  
+			    ?>
+					<div class="col-md-3">
+						<?php get_template_part( 'template-parts/content'); ?>
+					</div>
+				<?php
+				endwhile;
+				?>
+			</div>	
+
+		</div>
+	</section>
 
 </div>
 

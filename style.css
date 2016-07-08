@@ -171,6 +171,37 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
         background-color: #60deff; }
     #page #content section#produtos article:hover {
       border: 1px solid #005176; }
+  #page #content section#produtosb {
+    margin-bottom: 50px; }
+    #page #content section#produtosb div.category {
+      padding: 50px 0; }
+    #page #content section#produtosb article {
+      padding: 25px 15px;
+      border: 1px solid #c0c0c0; }
+      #page #content section#produtosb article h4 {
+        min-height: 34px; }
+      #page #content section#produtosb article span.price {
+        font-weight: bold;
+        color: #005176;
+        font-size: 15px;
+        padding: 10px 0;
+        display: block; }
+        #page #content section#produtosb article span.price del {
+          display: block;
+          font-weight: normal; }
+        #page #content section#produtosb article span.price ins {
+          display: block; }
+      #page #content section#produtosb article a {
+        display: block; }
+      #page #content section#produtosb article a.btn-comprar {
+        background-color: #00a9d6;
+        color: white;
+        font-size: 18px;
+        padding: 5px 0; }
+      #page #content section#produtosb article a.btn-comprar:hover {
+        background-color: #60deff; }
+    #page #content section#produtosb article:hover {
+      border: 1px solid #005176; }
   #page #content section#contato-pag {
     margin-bottom: 50px; }
     #page #content section#contato-pag .info-right {

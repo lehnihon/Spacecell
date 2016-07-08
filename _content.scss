@@ -59,6 +59,59 @@
 		}
 	}
 
+	section#produtosb{
+		margin-bottom: 50px;
+
+		div.category{
+			padding:50px 0;
+		}
+
+		article{
+			padding:25px 15px;
+			border:1px solid #c0c0c0;
+
+			h4{
+				min-height: 34px;
+			}
+
+			span.price{
+				font-weight: bold;
+				color:#005176;
+				font-size: 15px;
+				padding:10px 0;
+				display: block;
+
+				del{
+					display: block;
+					font-weight: normal;
+				}
+				ins{
+					display: block;
+					
+				}
+			}
+
+			a{
+				display: block;
+			}
+
+			a.btn-comprar{
+				background-color:#00a9d6;
+				color:white;
+				font-size: 18px;
+				padding:5px 0;
+			}
+			a.btn-comprar:hover{
+				background-color:#60deff;
+			}
+		}
+
+		article:hover{
+			border:1px solid #005176;
+		}
+	}
+
+
 	section#contato-pag{
 		margin-bottom: 50px;
 
