@@ -48,6 +48,10 @@
 							contato@spacecell.com.br
 						</p>
 					</div>
+					<div class="col-md-3">
+						<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=spacecell.com.br','SiteLock','width=600,height=600,left=160,top=170');" ><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/spacecell.com.br" /></a>
+					</div>
+
 				</div>
 			</div><!-- .container -->			
 		</div>
