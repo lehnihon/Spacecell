@@ -122,6 +122,17 @@ get_header( 'shop' ); ?>
 
 				<?php endif; ?>
 
+				<?php if( $cat_obj->slug == 'tablets'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Marcas</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-21"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
 			</div>	
 			<div class="col-md-9">
 		<?php if ( have_posts() ) : ?>
