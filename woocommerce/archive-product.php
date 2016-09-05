@@ -26,9 +26,11 @@ get_header( 'shop' ); ?>
 	?>
 
 		<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
-
-			<h1><?php woocommerce_page_title(); ?></h1>
-
+		<div class="row">
+			<div class="col-md-offset-3">		
+				<h1><?php woocommerce_page_title(); ?></h1>
+			</div>
+		</div>
 		<?php endif; ?>
 
 		<?php do_action( 'woocommerce_archive_description' ); ?>
@@ -122,6 +124,95 @@ get_header( 'shop' ); ?>
 
 				<?php endif; ?>
 
+				<?php if( $cat_obj->slug == 'acessorios'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Relogios</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-10"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'produtos-refurbished'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Eletroportáteis</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-11"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Celulares</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-12"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Saúde e Beleza</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-13"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Ar e Ventilação</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-14"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Acessórios</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-15"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
+				<?php if( $cat_obj->slug == 'produtos-vitrine'):?>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Eletroportáteis</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-16"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Celulares</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-17"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Saúde e Beleza</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-18"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Ar e Ventilação</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-19"]'); ?>
+					</div>
+
+					<div class="filtro">
+						<div class="titulo-filtro">
+							<span>Acessórios</span> <img class="e-claro img-plus" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/plus.jpg"; ?>"/>
+						</div>
+						<?php echo do_shortcode('[widget id="yith-woo-ajax-navigation-20"]'); ?>
+					</div>
+
+				<?php endif; ?>
+
 				<?php if( $cat_obj->slug == 'tablets'):?>
 
 					<div class="filtro">
@@ -132,6 +223,8 @@ get_header( 'shop' ); ?>
 					</div>
 
 				<?php endif; ?>
+
+
 
 			</div>	
 			<div class="col-md-9">
