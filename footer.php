@@ -29,16 +29,18 @@
 						<strong>Nossas Redes Sociais</strong><br><br>
 						<ul class="redes_sociais_bot">
 							<li class="youtube"><a target="_blank" href="#"></a></li>
-							<li class="instagram"><a target="_blank" href="#"></a></li>
-							<li class="twitter"><a target="_blank" href="#"></a></li>
-							<li class="facebook"><a target="_blank" href="#"></a></li>
+							<li class="instagram"><a target="_blank" href="https://www.instagram.com/spacecellreal
+"></a></li>
+							<li class="twitter"><a target="_blank" href="https://www.twitter.com/spacecellreal
+"></a></li>
+							<li class="facebook"><a target="_blank" href="https://www.facebook.com/spacecelloficial?__mref=message_bubble"></a></li>
 						</ul>
 					</div>
 				</div><!-- .row -->
 				<div class="row outros">
-					<div class="col-md-6">
+					<div class="col-md-5">
 						<strong>Formas de Pagamento</strong><br><br>
-						<img src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto.jpg"?>" />
+						<img class="img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/footer-pgto.jpg"?>" />
 					</div>
 					<div class="col-md-2">
 						<strong>Televendas</strong><br><br>
@@ -48,10 +50,11 @@
 							contato@spacecell.com.br
 						</p>
 					</div>
-					<div class="col-md-2">
-						<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=spacecell.com.br','SiteLock','width=600,height=600,left=160,top=170');" ><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/spacecell.com.br" /></a>
+					<div class="col-md-2 col-md-offset-1 text-right">
+						<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=spacecell.com.br','SiteLock','width=600,height=600,left=160,top=170');" ><img style="margin-left: 50px" class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/spacecell.com.br" /></a>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 text-right">
+					<br>
 						<a target="_blank" href="https://www.google.com/transparencyreport/safebrowsing/diagnostic/?hl=pt-BR#url=www.spacecell.com.br"><img class="img-responsive" alt="Google" title="Google" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/google.jpg"; ?>" /></a>
 					</div>
 				</div>
